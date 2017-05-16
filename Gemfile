@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# gem 'starter_generators', :git => "http://github.com/rbetina/starter_generators.git"
+gem 'starter_generators', :git => "http://github.com/rbetina/starter_generators.git"
 
 gem 'kaminari'
 
@@ -46,3 +46,4 @@ end
 gem 'rspec-rails', group: [:test, :development]
 gem 'capybara', group: [:test, :development]
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise'
